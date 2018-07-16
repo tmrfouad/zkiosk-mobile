@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>The Kiosk</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item (click)="itemTapped($event, 'ProductsPage')">
+      <ion-icon name="arrow-dropright" item-left></ion-icon>
+      Products
+    </button>
+  </ion-list>
+</ion-content>
